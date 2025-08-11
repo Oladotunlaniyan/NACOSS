@@ -5,13 +5,6 @@ import { motion } from "framer-motion"
 import { CalendarDays, Mail, PhoneOutgoing } from "lucide-react"
 
 export default function Appointment() {
-  const iconVariants = {
-    initial: { scale: 1 },
-    animate: {
-      scale: [1, 1.15, 1],
-      transition: { duration: 1.2, repeat: Infinity, ease: "easeInOut" }
-    }
-  }
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 py-8 sm:py-12 lg:py-18 px-4 sm:px-6 lg:px-28 gap-6 lg:gap-4 font-Inter max-w-7xl mx-auto items-stretch">

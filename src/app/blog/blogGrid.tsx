@@ -4,6 +4,14 @@ import { motion } from 'framer-motion';
 import BlogCard from './blogCard';
 import { Loader2 } from 'lucide-react';
 
+interface MediumItem {
+  title: string;
+  link: string;
+  pubDate: string;
+  description: string;
+  author?: string;
+}
+
 interface BlogPost {
   title: string;
   link: string;
@@ -31,7 +39,7 @@ const BlogGrid = () => {
         
         const data = await response.json();
         
-        const formattedPosts = data.items.slice(0, 9).map((item: any) => ({
+        const formattedPosts: BlogPost[] = data.items.slice(0, 9).map((item: MediumItem) => ({
           title: item.title,
           link: item.link,
           pubDate: item.pubDate,
@@ -40,7 +48,7 @@ const BlogGrid = () => {
         }));
         
         setPosts(formattedPosts);
-      } catch (err) {
+      } catch{
         setError('Unable to load blog posts at this time');
         // Fallback mock data
         setPosts([

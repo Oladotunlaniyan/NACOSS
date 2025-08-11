@@ -128,7 +128,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
 
               <div className="grid md:grid-cols-2 gap-6 mb-8">
                 <div>
-                  <h4 className="font-medium text-gray-900 mb-3">What's Included:</h4>
+                  <h4 className="font-medium text-gray-900 mb-3">What&apos;s Included:</h4>
                   <ul className="space-y-2">
                     {details.includes.map((item, index) => (
                       <li key={index} className="flex items-start">
