@@ -21,7 +21,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-20 mx-auto px-4 sm:px-6 lg:px-8 pb-1 sm:pb-28 min-h-screen flex flex-col justify-center md:justify-end items-center text-center">
+      <div className="relative z-20 mx-auto px-4 sm:px-6 lg:px-8 pb-1 sm:pb-24 min-h-screen flex flex-col justify-center md:justify-end items-center text-center">
         {/* Main Heading */}
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
