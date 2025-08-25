@@ -1,49 +1,107 @@
-"use client"
-import { Calendar, Microscope, PhoneOutgoing} from "lucide-react"
+import React from 'react';
 
-export default function Footer (){
+export default function Footer() {
+  return (
+    <footer className="bg-backgroundPrimary text-white py-12">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
+          
+          {/* Logo and University Info */}
+          <div className="lg:col-span-1">
+            <div className="flex items-center space-x-4 mb-6">
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold mb-1">NACOSS Unilorin</h3>
+              <p className="text-gray-300">Computer Science</p>
+            </div>
+          </div>
 
-    return(
-        <div className="bg-[#010F30] font-Inter text-white py-8 sm:py-12 lg:py-16">
-            {/* Cards Section */}
-            <section className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 lg:gap-6 px-4 sm:px-6 lg:px-8 xl:px-10 max-w-7xl mx-auto'>
-                {/* Schedule Card */}
-                <div className="bg-[#FFFFFF4D] rounded-xl sm:rounded-2xl cursor-pointer px-4 sm:px-6 lg:px-8 xl:px-10 py-6 sm:py-7 lg:py-8 shadow-lg hover:bg-[#FFFFFF60] transition-colors duration-200"> 
-                    <div className="flex items-start gap-2 sm:gap-3 mb-3 sm:mb-4">
-                        <Calendar className="w-5 h-5 sm:w-6 sm:h-6 flex-shrink-0 mt-0.5 sm:mt-1"/>
-                        <span className="font-bold text-base sm:text-lg lg:text-xl leading-tight">Schedule an appointment</span>
-                    </div>
-                    <div className="text-xs sm:text-sm lg:text-base leading-relaxed text-gray-100">
-                        Reserve an appointment in 2 quick steps using realtime availability calendar
-                    </div>
-                </div>
+          {/* Navigation Links */}
+          <div className="lg:col-span-2">
+            <div className="grid grid-cols-2 gap-8 lg:gap-12">
+              {/* First Column */}
+              <div>
+                <ul className="space-y-4">
+                  <li>
+                    <a 
+                      href="#" 
+                      className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
+                      NACOSS
+                    </a>
+                  </li>
+                  <li>
+                    <a 
+                      href="/blog" 
+                      className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
+                      Blog
+                    </a>
+                  </li>
+                  <li>
+                    <a 
+                      href="/events" 
+                      className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
+                      Events
+                    </a>
+                  </li>
+                  <li>
+                    <a 
+                      href="/about" 
+                      className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
+                      About
+                    </a>
+                  </li>
+                </ul>
+              </div>
 
-                {/* Call Card */}
-                <div className="bg-[#FFFFFF4D] rounded-xl sm:rounded-2xl cursor-pointer px-4 sm:px-6 lg:px-8 xl:px-10 py-6 sm:py-7 lg:py-8 shadow-lg hover:bg-[#FFFFFF60] transition-colors duration-200"> 
-                    <div className="flex items-start gap-2 sm:gap-3 mb-3 sm:mb-4">
-                        <PhoneOutgoing className="w-5 h-5 sm:w-6 sm:h-6 flex-shrink-0 mt-0.5 sm:mt-1"/>
-                        <span className="font-bold text-base sm:text-lg lg:text-xl leading-tight">Call Us</span>
-                    </div>
-                    <div className="text-xs sm:text-sm lg:text-base leading-relaxed text-gray-100">
-                        Need to speak to someone? Call us at (122)-6971-891 for appointment reservations or questions.
-                    </div>
-                </div>
-
-                {/* Hours Card */}
-                <div className="bg-[#FFFFFF4D] rounded-xl sm:rounded-2xl cursor-pointer px-4 sm:px-6 lg:px-8 xl:px-10 py-6 sm:py-7 lg:py-8 shadow-lg hover:bg-[#FFFFFF60] transition-colors duration-200 sm:col-span-2 lg:col-span-1"> 
-                    <div className="flex items-start gap-2 sm:gap-3 mb-3 sm:mb-4">
-                        <Microscope className="w-5 h-5 sm:w-6 sm:h-6 flex-shrink-0 mt-0.5 sm:mt-1"/>
-                        <span className="font-bold text-base sm:text-lg lg:text-xl leading-tight">Practice Hours</span>
-                    </div>
-                    <div className="text-xs sm:text-sm lg:text-base leading-relaxed text-gray-100">
-                        <div className="space-y-1">
-                            <div>Monday-Tuesday: 09:00-21:00</div>
-                            <div>Friday: 09:00-19:00</div>
-                            <div>Saturday: 11:00-16:00</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+              {/* Second Column */}
+              <div>
+                <ul className="space-y-4">
+                  <li>
+                    <a 
+                      href="#" 
+                      className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
+                      Contact
+                    </a>
+                  </li>
+                  <li>
+                    <a 
+                      href="#" 
+                      className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
+                      Resources
+                    </a>
+                  </li>
+                  <li>
+                    <a 
+                      href="#" 
+                      className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
+                      School Website
+                    </a>
+                  </li>
+                  <li>
+                    <a 
+                      href="#" 
+                      className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
+                      Admissions
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-    )
+
+        {/* Bottom Section */}
+        <div className="flex flex-col lg:flex-row justify-between items-center mt-12 pt-8 border-t border-gray-300">
+          <p className="text-gray-400 text-sm mb-4 lg:mb-0">
+            © University of Ilorin | All Rights Reserved
+          </p>
+          
+          {/* Social Media */}
+          <div className="flex items-center space-x-2">
+            <span className="text-gray-400 text-sm">nacoss</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
 }

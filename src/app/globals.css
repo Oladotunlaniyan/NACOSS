@@ -2,9 +2,10 @@
 @import "tailwindcss";
 
 @theme {
-   --color-nav-background: #F1F3F9;
-   --color-button-background: #2B3D6C;
-   --color-hero-text: #2B3D6C;
+  --color-backgroundPrimary: #194b88;
+   --color-nav-background:;
+   --color-button-background: ;
+   --color-hero-text: ;
 
    --font-Inter:"Inter", sans-serif;
 }
