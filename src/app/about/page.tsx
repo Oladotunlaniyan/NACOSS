@@ -1,11 +1,19 @@
-import Title from "./title"
+import AboutTitle from "./title.tsx"
+import Title from "@/components/title"
 import AboutSection1 from "./aboutSection1"
+import AboutSection2 from "./aboutSection2"
 
 export default function ServicesPage() {
     return (
         <div>
-            <Title />
+            <AboutTitle />
             <AboutSection1 />
+            <AboutSection2 />
+            <Title title="LEADERSHIP" />
+            {/* career opportunities */}
+            {/* tiny-title at the top */}
+            {/* cards of different career paths in tech; Data Science, Software Engineering */}
+            <Title title="NACOSS" />
 
 
         </div>
