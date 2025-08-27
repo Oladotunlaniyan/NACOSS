@@ -4,8 +4,8 @@ import aboutSection1Img from "@/assets/AboutSection1Img.jpg"
 const aboutSection1 = () => {
     return (
         <div>
-            <div className="grid grid-cols-2 gap-4 h-full">
-                <div className="w-xl ml-[52px] p-[20px]">
+            <div className="grid grid-cols-2 gap-16 h-full w-full">
+                <div className="ml-[52px] p-[20px]">
                     <p className="font-semibold text-2xl">
                         The Nacoss Unilorin  community is driven by  a shared prupose: to make a better world through education, research and innovation. We are fun and quirky, elite but not elitist, inventive and artistic, obsessed with numbers, and welcoming to talented people regardless of where they come from.
                     </p>
@@ -18,7 +18,7 @@ const aboutSection1 = () => {
                     <Image
                         src={aboutSection1Img}
                         alt="Hero image"
-                        className="h-fit rounded-2xl w-2xl"
+                        className="h-auto rounded-2xl w-2xl"
                     />
                     <br /> <br /> <br />
                 </div>
