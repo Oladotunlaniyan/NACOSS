@@ -18,10 +18,6 @@ export default function ServicesPage() {
             <Title title="CAREER OPPORTUNITIES" />
             <HowItWorksSection />
             <CareerOpportunitiesSection />
-
-            {/* career opportunities */}
-            {/* tiny-title at the top */}
-            {/* cards of different career paths in tech; Data Science, Software Engineering */}
             <Title title="NACOSS" />
             <NacossSection />
 
