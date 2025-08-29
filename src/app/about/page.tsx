@@ -1,4 +1,4 @@
-import AboutTitle from "./title.tsx"
+import AboutTitle from "./title"
 import Title from "@/components/title"
 import AboutSection1 from "./aboutSection1"
 import AboutSection2 from "./aboutSection2"

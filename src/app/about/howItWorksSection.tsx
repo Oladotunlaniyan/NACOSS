@@ -1,6 +1,3 @@
-import Image from "next/image"
-import aboutSection1Img from "@/assets/AboutSection1Img.jpg"
-
 const howItWorksSection = () => {
     return (
         <div className="text-center p-[4px]">

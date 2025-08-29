@@ -1,7 +1,7 @@
 "use client"
 
 interface TitleProps {
-    title: String;
+    title: string;
 }
 
 const Title = ({ title}: TitleProps) => {
