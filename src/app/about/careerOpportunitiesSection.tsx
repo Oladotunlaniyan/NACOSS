@@ -17,8 +17,6 @@ const CareerOpportunities = () => {
 
   return (
     <div className="container mx-auto px-4 py-12 md:py-20">
-
-      
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-8">
         {careerPaths.map((path, index) => (
           <div key={index} className="flex flex-col items-center text-center p-2 border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
