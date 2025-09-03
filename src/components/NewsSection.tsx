@@ -26,11 +26,7 @@ const NewsSection = () => {
             <div className="relative w-full max-w-sm sm:w-80 h-64 sm:h-80">
               <div className="w-full h-full bg-gradient-to-br from-primary-100 to-primary-200 rounded-lg flex items-center justify-center">
                 <div className="text-center space-y-3 sm:space-y-4">
-                  <div className="w-16 h-16 sm:w-24 sm:h-24 mx-auto bg-gradient-to-br from-primary-500 to-primary-600 rounded-full flex items-center justify-center">
-                    <svg className="w-8 h-8 sm:w-12 sm:h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                    </svg>
-                  </div>
+             
                   <p className="text-gray-600 text-xs sm:text-sm">Student working on laptop</p>
                 </div>
               </div>
