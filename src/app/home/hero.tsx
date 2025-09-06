@@ -3,26 +3,28 @@
 import heroImg from "@/assets/hero.jpg"
 import Image from "next/image"
 
-
-const hero = () => {
+const Hero = () => {
   return (
-    <div>
-        <div className="relative w-full h-screen">
-            <Image 
-            src={heroImg}
-            alt="Hero image"
-            className="object-center object-cover"
-            fill
-            priority
-            />
-            <div className="absolute inset-0 bg-gradient-to-b from-black/30 to-black/60"></div>
-        <div className="absolute text-5xl sm:text-6xl font-bold text-gray-200 text-center leading-relaxed sm:left-90 top-50 sm:top-80">
-            <h1>Pioneering Growth in <br /> Computing and Technology</h1> 
-        </div>
+    <div className="min-h-screen bg-white">
+      {/* Hero Content */}
+      <div className="flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20 text-center">
+        {/* Main Title */}
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 leading-tight mb-8 sm:mb-10 lg:mb-12 max-w-4xl sm:max-w-5xl lg:max-w-6xl px-4">
+          ADVANCING THE FRONTIERS OF COMPUTING
+        </h1>
 
+        {/* Hero Image */}
+        <div className="w-full max-w-4xl sm:max-w-5xl lg:max-w-6xl px-4">
+          <Image 
+            src={heroImg}
+            alt="Retro-futuristic computer lab with vintage computing equipment"
+            className="w-full h-auto rounded-lg shadow-lg"
+            priority
+          />
         </div>
+      </div>
     </div>
   )
 }
 
-export default hero
+export default Hero
