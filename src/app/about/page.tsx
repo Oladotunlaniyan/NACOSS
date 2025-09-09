@@ -1,5 +1,6 @@
 import AboutTitle from "./title"
-import Title from "@/components/title"
+import HeaderTitle from "@/components/HeaderTitle"
+import Title from "@/components/Title"
 import AboutSection1 from "./aboutSection1"
 import AboutSection2 from "./aboutSection2"
 import LeadershipSection from "./leadershipSection"
@@ -10,7 +11,8 @@ import NacossSection from "./NacossSection"
 export default function ServicesPage() {
     return (
         <div>
-            <AboutTitle />
+            {/* <AboutTitle /> */}
+            <HeaderTitle headerTitle="ABOUT"/>
             <AboutSection1 />
             <AboutSection2 />
             <Title title="LEADERSHIP" />
