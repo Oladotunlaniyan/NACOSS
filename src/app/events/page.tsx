@@ -4,7 +4,7 @@ import Title from "@/components/HeaderTitle"
 export default function ServicesPage() {
     return (
         <div>
-            <Title  title="EVENTS"/>
+            <Title  headerTitle="EVENTS"/>
         </div>
     )
 }
