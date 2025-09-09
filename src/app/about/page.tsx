@@ -1,6 +1,6 @@
 import AboutTitle from "./title"
 import HeaderTitle from "@/components/HeaderTitle"
-import Title from "@/components/Title"
+import Title from "@/components/title"
 import AboutSection1 from "./aboutSection1"
 import AboutSection2 from "./aboutSection2"
 import LeadershipSection from "./leadershipSection"

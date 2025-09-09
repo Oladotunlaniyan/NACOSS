@@ -1,5 +1,5 @@
 import Title from "@/components/HeaderTitle"
-import CupProgressSection from "./cupProgressSection"
+import CupProgressSection from "./CupProgressSection"
 import UpcomingEventsSection from "./upcomingEventsSection"
 import FrameHighlightsSection from "./frameHighlightsSection"
 
