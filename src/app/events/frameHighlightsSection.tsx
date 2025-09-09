@@ -1,17 +1,17 @@
 import Image from "next/image";
-import dataScienceImg from "@/assets/career_data_science.svg";
-import softwareEngineeringImg from "@/assets/career_software_engineering.svg";
-import devopsImg from "@/assets/career_devops.svg";
-import artificialIntelligenceImg from "@/assets/career_ai.svg";
-import cyberSecurityImg from "@/assets/career_cyber_security.svg";
+import frameHighlighImg1 from "@/assets/highlights-img(1).svg";
+import frameHighlighImg2 from "@/assets/highlights-img(2).svg";
+import frameHighlighImg3 from "@/assets/highlights-img(3).svg";
+import frameHighlighImg4 from "@/assets/highlights-img(4).svg";
+import frameHighlighImg5 from "@/assets/highlights-img(5).svg";
 
 
 const careerPaths = [
-    { name: "Our 1- 0 win against Civil Eng. vs Computer Sci.", image: dataScienceImg },
-    { name: "Our 3- 0 win against TSC. vs Computer Sci.", image: softwareEngineeringImg },
-    { name: "CS Students Winning the Dean Cup Trophy.", image: devopsImg },
-    { name: "Inter-Faculty Debates, Representing CIS Faculty", image: artificialIntelligenceImg },
-    { name: "Computer Science Student Innovations", image: cyberSecurityImg },
+    { name: "Our 1- 0 win against Civil Eng. vs Computer Sci.", image: frameHighlighImg1 },
+    { name: "Our 3- 0 win against TSC. vs Computer Sci.", image: frameHighlighImg2 },
+    { name: "CS Students Winning the Dean Cup Trophy.", image: frameHighlighImg3 },
+    { name: "Inter-Faculty Debates, Representing CIS Faculty", image: frameHighlighImg4 },
+    { name: "Computer Science Student Innovations", image: frameHighlighImg5 },
 ];
 
 export default function FrameHighlightsSection() {
@@ -21,8 +21,11 @@ export default function FrameHighlightsSection() {
             <br />
             <br />
             <br />
-            <h1 className="font-bold text-[45px] ml-[80px] mb-[-40px]">HIGHLIGHTS IN FRAMES</h1>
             <div className="container mx-auto px-4 py-12 md:py-20">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[45px] font-extrabold mb-8 text-gray-900 leading-tight">
+                    HIGHLIGHTS IN FRAMES
+                </h1>
+                <br />
                 <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-8">
                     {careerPaths.map((path, index) => (
                         <div key={index} className="flex flex-col items-center text-center p-2 border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
