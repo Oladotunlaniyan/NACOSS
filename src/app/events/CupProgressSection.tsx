@@ -12,7 +12,7 @@ export default function CupProgressSection() {
                         Beyond the Lab: Champions on the Pitch
                     </h4>
                     <p className="mt-4 text-base sm:text-lg text-gray-600 leading-relaxed">
-                        The same spirit of innovation and teamwork that drives us to build groundbreaking projects fuels our competitive drive on the field. We bring the discipline of our code and the unity of our community to represent Computer Science in the Dean's Cup. Follow our journey as we push the boundaries of what's possible, both in the lecture halls and on the pitch.
+                        The same spirit of innovation and teamwork that drives us to build groundbreaking projects fuels our competitive drive on the field. We bring the discipline of our code and the unity of our community to represent Computer Science in the Dean&apos;s Cup. Follow our journey as we push the boundaries of what&apos;s possible, both in the lecture halls and on the pitch.
                         <a href="#" className="inline text-blue-600 font-semibold ml-2 hover:underline">
                             Read More.
                         </a>
