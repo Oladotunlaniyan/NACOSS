@@ -1,6 +1,7 @@
 // import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 // export const metadata: Metadata = {
 //   title: "Your Site Title",
@@ -14,6 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Navbar />
         <main>{children}</main>
       </body>
+      <Footer />
     </html>
   );
 }
