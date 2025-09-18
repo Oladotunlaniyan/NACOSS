@@ -1,17 +1,17 @@
 import Image from "next/image";
-import frameHighlighImg1 from "@/assets/highlights-img(1).svg";
-import frameHighlighImg2 from "@/assets/highlights-img(2).svg";
-import frameHighlighImg3 from "@/assets/highlights-img(3).svg";
-import frameHighlighImg4 from "@/assets/highlights-img(4).svg";
-import frameHighlighImg5 from "@/assets/highlights-img(5).svg";
+import frameHighlighImg1 from "@/assets/aisha_nacoss.jpg";
+import frameHighlighImg2 from "@/assets/lecturers.jpg";
+import frameHighlighImg3 from "@/assets/nacoss_cis_su.jpg";
+import frameHighlighImg4 from "@/assets/awards_cs.jpg";
+import frameHighlighImg5 from "@/assets/nacoss_president_24_25.jpg";
 
 
 const careerPaths = [
-    { name: "Our 1- 0 win against Civil Eng. vs Computer Sci.", image: frameHighlighImg1 },
-    { name: "Our 3- 0 win against TSC. vs Computer Sci.", image: frameHighlighImg2 },
-    { name: "CS Students Winning the Dean Cup Trophy.", image: frameHighlighImg3 },
-    { name: "Inter-Faculty Debates, Representing CIS Faculty", image: frameHighlighImg4 },
-    { name: "Computer Science Student Innovations", image: frameHighlighImg5 },
+    { name: "Celebrating one of our very own, Nacoss VP 24/25", image: frameHighlighImg1 },
+    { name: "Our amazing Computer Science Lecturers", image: frameHighlighImg2 },
+    { name: "Nacoss President alongside Faculty and SU President", image: frameHighlighImg3 },
+    { name: "Giving out awards at Nacoss Tech Fest 1.0", image: frameHighlighImg4 },
+    { name: " Ayomide, Nacoss President, 2024/2025", image: frameHighlighImg5 },
 ];
 
 export default function FrameHighlightsSection() {
