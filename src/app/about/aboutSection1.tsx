@@ -1,5 +1,5 @@
 import Image from "next/image"
-import aboutSection1Img from "@/assets/AboutSection1Img.jpg"
+import aboutSection1Img from "@/assets/nacoss_tech_fest_1.jpg"
 
 const aboutSection1 = () => {
     return (

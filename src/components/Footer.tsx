@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 export default function Footer() {
@@ -5,7 +6,7 @@ export default function Footer() {
     <footer className="bg-backgroundPrimary text-white py-12">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
-          
+
           {/* Logo and University Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-4 mb-6">
@@ -23,32 +24,36 @@ export default function Footer() {
               <div>
                 <ul className="space-y-4">
                   <li>
-                    <a 
-                      href="/" 
+                    {/* <a
+                      href="/"
                       className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
                       NACOSS
-                    </a>
+                    </a> */}
+                    <Link href="/" className='text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium'>NACOSS</Link>
                   </li>
                   <li>
-                    <a 
-                      href="/blog" 
+                    <Link href="/blog" className='text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium'>Blog</Link>
+                    {/* <a
+                      href="/blog"
                       className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
                       Blog
-                    </a>
+                      </a> */}
                   </li>
                   <li>
-                    <a 
-                      href="/events" 
+                      <Link href="/events" className='text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium'>Events</Link>
+                    {/* <a
+                      href="/events"
                       className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
                       Events
-                    </a>
+                      </a> */}
                   </li>
                   <li>
-                    <a 
-                      href="/about" 
+                      <Link href="/about" className='text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium'>About</Link>
+                    {/* <a
+                      href="/about"
                       className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
                       About
-                    </a>
+                      </a> */}
                   </li>
                 </ul>
               </div>
@@ -57,32 +62,36 @@ export default function Footer() {
               <div>
                 <ul className="space-y-4">
                   <li>
-                    <a 
-                      href="/contact" 
+                      <Link href="/contact" className='text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium'>Contact</Link>
+                    {/* <a
+                      href="/contact"
                       className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
                       Contact
-                    </a>
+                    </a> */}
                   </li>
                   <li>
-                    <a 
-                      href="/resources" 
+                      <Link href="/resources" className='text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium'>Resources</Link>
+                    {/* <a
+                      href="/resources"
                       className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
                       Resources
-                    </a>
+                      </a> */}
                   </li>
                   <li>
-                    <a 
-                      href="/" 
+                      <Link href="/" className='text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium'>School Website</Link>
+                    {/* <a
+                      href="/"
                       className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
                       School Website
-                    </a>
+                      </a> */}
                   </li>
                   <li>
-                    <a 
-                      href="/resources" 
+                      <Link href="/resources" className='text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium'>Admissions</Link>
+                    {/* <a
+                      href="/resources"
                       className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
                       Admissions
-                    </a>
+                    </a> */}
                   </li>
                 </ul>
               </div>
@@ -95,7 +104,7 @@ export default function Footer() {
           <p className="text-gray-400 text-sm mb-4 lg:mb-0">
             © University of Ilorin | All Rights Reserved
           </p>
-          
+
           {/* Social Media */}
           <div className="flex items-center space-x-2">
             <span className="text-gray-400 text-sm">nacoss_unilorin</span>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import resourceImg from "@/assets/Resource_Picture.svg"; // Placeholder image
+import resourceImg from "@/assets/cislt.png";
 
 export default function ResourcesSection() {
     return (
@@ -72,7 +72,7 @@ export default function ResourcesSection() {
             <div className="bg-gray-900 text-white py-16 md:py-24">
                 <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-start">
                     <div className="space-y-4">
-                        <h2 className="text-3xl sm:text-4xl font-semibold">Not finding what <br /> you're looking for?</h2>
+                        <h2 className="text-3xl sm:text-4xl font-semibold">Not finding what <br /> you are looking for?</h2>
                         <a href="#" className="uppercase text-sm font-bold text-gray-400 hover:text-white transition-colors">Contact Us</a>
                     </div>
                     <div className="space-y-6">

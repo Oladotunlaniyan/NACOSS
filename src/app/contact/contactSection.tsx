@@ -15,7 +15,7 @@ export default function ContactSection() {
                 </div>
                 <div className="">
                     <h1 className="md:text-[40px] text-[30px] font-bold">Follow Us</h1>
-                    <a href="https://www.instragram.com/nacoss_unilorin" className="text-blue-600 hover:underline"> nacoss_unilorin </a>
+                    <a href="https://www.instagram.com/nacoss.unilorin/" className="text-blue-600 hover:underline"> nacoss.unilorin </a>
                 </div>
                 <div className="">
                     <h1 className="md:text-[40px] text-[30px] font-bold">Email Address</h1>

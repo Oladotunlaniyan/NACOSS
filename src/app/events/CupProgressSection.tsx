@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import cupImg from "@/assets/career_ai.svg";
+import cupImg from "@/assets/nacoss_image.jpg";
 
 export default function CupProgressSection() {
     return (

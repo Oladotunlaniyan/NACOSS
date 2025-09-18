@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from "next/image";
-import aboutSection1Img from "@/assets/AboutSection1Img.jpg";
+import DrMrsBalogun from "@/assets/Dr_Mrs_Balogun3.jpg";
+import NacossStudents from "@/assets/nacoss_students.jpg"
 
 const NacossSection = () => {
     return (
@@ -9,7 +10,7 @@ const NacossSection = () => {
                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 lg:gap-8 items-center justify-center">
                     <div className="relative w-full h-80 sm:w-[303px] sm:h-[391px] rounded-2xl overflow-hidden">
                         <Image
-                            src={aboutSection1Img}
+                            src={NacossStudents}
                             alt="A group of people collaborating in a modern office space."
                             layout="fill"
                             objectFit="cover"
@@ -18,7 +19,7 @@ const NacossSection = () => {
                     </div>
                     <div className="relative w-full h-64 sm:w-[303px] sm:h-[300px] rounded-2xl overflow-hidden">
                         <Image
-                            src={aboutSection1Img}
+                            src={DrMrsBalogun}
                             alt="A person smiling in front of a colorful, graffiti-style wall."
                             layout="fill"
                             objectFit="cover"
