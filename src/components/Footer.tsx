@@ -24,7 +24,7 @@ export default function Footer() {
                 <ul className="space-y-4">
                   <li>
                     <a 
-                      href="#" 
+                      href="/" 
                       className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
                       NACOSS
                     </a>
