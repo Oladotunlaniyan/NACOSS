@@ -24,36 +24,16 @@ export default function Footer() {
               <div>
                 <ul className="space-y-4">
                   <li>
-                    {/* <a
-                      href="/"
-                      className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
-                      NACOSS
-                    </a> */}
                     <Link href="/" className='text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium'>NACOSS</Link>
                   </li>
                   <li>
                     <Link href="/blog" className='text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium'>Blog</Link>
-                    {/* <a
-                      href="/blog"
-                      className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
-                      Blog
-                      </a> */}
                   </li>
                   <li>
                       <Link href="/events" className='text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium'>Events</Link>
-                    {/* <a
-                      href="/events"
-                      className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
-                      Events
-                      </a> */}
                   </li>
                   <li>
                       <Link href="/about" className='text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium'>About</Link>
-                    {/* <a
-                      href="/about"
-                      className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
-                      About
-                      </a> */}
                   </li>
                 </ul>
               </div>
@@ -63,35 +43,15 @@ export default function Footer() {
                 <ul className="space-y-4">
                   <li>
                       <Link href="/contact" className='text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium'>Contact</Link>
-                    {/* <a
-                      href="/contact"
-                      className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
-                      Contact
-                    </a> */}
                   </li>
                   <li>
                       <Link href="/resources" className='text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium'>Resources</Link>
-                    {/* <a
-                      href="/resources"
-                      className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
-                      Resources
-                      </a> */}
                   </li>
                   <li>
                       <Link href="/" className='text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium'>School Website</Link>
-                    {/* <a
-                      href="/"
-                      className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
-                      School Website
-                      </a> */}
                   </li>
                   <li>
                       <Link href="/resources" className='text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium'>Admissions</Link>
-                    {/* <a
-                      href="/resources"
-                      className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
-                      Admissions
-                    </a> */}
                   </li>
                 </ul>
               </div>
