@@ -58,28 +58,28 @@ export default function Footer() {
                 <ul className="space-y-4">
                   <li>
                     <a 
-                      href="#" 
+                      href="/contact" 
                       className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
                       Contact
                     </a>
                   </li>
                   <li>
                     <a 
-                      href="#" 
+                      href="/resources" 
                       className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
                       Resources
                     </a>
                   </li>
                   <li>
                     <a 
-                      href="#" 
+                      href="/" 
                       className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
                       School Website
                     </a>
                   </li>
                   <li>
                     <a 
-                      href="#" 
+                      href="/resources" 
                       className="text-gray-300 hover:text-white transition-colors duration-200 text-base font-medium">
                       Admissions
                     </a>
@@ -98,7 +98,7 @@ export default function Footer() {
           
           {/* Social Media */}
           <div className="flex items-center space-x-2">
-            <span className="text-gray-400 text-sm">nacoss</span>
+            <span className="text-gray-400 text-sm">nacoss_unilorin</span>
           </div>
         </div>
       </div>
