@@ -23,7 +23,7 @@ const featurePost: BlogPost = {
   id: "feature-1",
   title: "Our Chancellor\u2019s Cup Progress",
   excerpt:
-    "The MIT community is driven by a shared purpose: to make a better world through education, research and innovation. We are fun and quirky, elite but not elitist, inventive and artistic, obsessed with numbers.",
+    "The NACOSS community is driven by a shared purpose: to make a better world through education, research and innovation. We are fun and quirky, elite but not elitist, inventive and artistic, obsessed with numbers.",
   dateLabel: "This Week\u2019s Feature",
   imageAlt: "Action shot from a football match",
 }
@@ -33,7 +33,7 @@ const posts: BlogPost[] = [
     id: "p1",
     title: "Our Chancellor\u2019s Cup Progress",
     excerpt:
-      "The MIT community is driven by a shared purpose: to make a better world through education, research and innovation. We are fun and quirky, elite but not elitist, inventive and artistic, obsessed with numbers.",
+      "The NACOSS community is driven by a shared purpose: to make a better world through education, research and innovation. We are fun and quirky, elite but not elitist, inventive and artistic, obsessed with numbers.",
     dateLabel: "DEC 26",
     imageAlt: "Vintage TV on wooden backdrop",
   },
@@ -41,7 +41,7 @@ const posts: BlogPost[] = [
     id: "p2",
     title: "Our Chancellor\u2019s Cup Progress",
     excerpt:
-      "The MIT community is driven by a shared purpose: to make a better world through education, research and innovation.",
+      "The NACOSS community is driven by a shared purpose: to make a better world through education, research and innovation.",
     dateLabel: "DEC 29",
     imageAlt: "Social media app icons",
   },
@@ -156,7 +156,7 @@ export default function BlogPage() {
                     <Link href="#" className="block text-sm font-semibold text-gray-900 hover:text-primary-600 truncate">
                       {item.title}
                     </Link>
-                    <p className="text-[11px] text-gray-500 line-clamp-2">The MIT community is driven by a shared purpose.</p>
+                    <p className="text-[11px] text-gray-500 line-clamp-2">The NACOSS community is driven by a shared purpose.</p>
                   </div>
                 </li>
               ))}
