@@ -11,14 +11,14 @@ export default function ResourcesSection() {
                     <div className="space-y-12">
 
                         <div className="space-y-6">
-                            <a href="https://drive.google.com" target="_blank" rel="noopener noreferrer" className="block">
+                            <a href="https://drive.google.com/drive/folders/1TMQFKlMke9YLQPmoG_CLo8YJ35eY9lLW" target="_blank" rel="noopener noreferrer" className="block">
                                 <div className="flex items-center space-x-2">
                                     <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900">Lecture Resources</h2>
                                     <svg className="w-5 h-5 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6L14 10L10 14"></path></svg>
                                 </div>
                                 <p className="text-gray-600 text-sm">drive.google.com</p>
                             </a>
-                            <a href="https://drive.google.com" target="_blank" rel="noopener noreferrer" className="block">
+                            <a href="https://drive.google.com/drive/folders/1TMQFKlMke9YLQPmoG_CLo8YJ35eY9lLW" target="_blank" rel="noopener noreferrer" className="block">
                                 <div className="flex items-center space-x-2">
                                     <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900">Past Questions</h2>
                                     <svg className="w-5 h-5 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6L14 10L10 14"></path></svg>
@@ -78,11 +78,11 @@ export default function ResourcesSection() {
                     <div className="space-y-6">
                         <div>
                             <p className="uppercase text-xs text-gray-400">Email Address</p>
-                            <a href="mailto:nacos@unilorin.edu.ng" className="text-base sm:text-lg">nacos@unilorin.edu.ng</a>
+                            <a href="mailto:nacossuil@gmail.com" className="text-base sm:text-lg">nacossuil@gmail.com</a>
                         </div>
                         <div>
                             <p className="uppercase text-xs text-gray-400">Phone</p>
-                            <a href="tel:+2348062587328" className="text-base sm:text-lg">+234 899 999 9999</a>
+                            <a href="tel:+2347049018290" className="text-base sm:text-lg">+234 704 901 8290, Ayodele Ogunyemi, NACOSS PRO.</a>
                         </div>
                         <div>
                             <p className="uppercase text-xs text-gray-400">Address</p>
